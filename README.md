@@ -47,14 +47,14 @@ npm install
 
 ## ⚒️ Build the App
 
-# From client directory
+# From frontend directory
 npm run build
 
 ---
 
 ## ▶️ Start the App
 
-# From server directory
+# From backend directory
 npm start
 
 
