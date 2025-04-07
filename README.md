@@ -49,33 +49,29 @@ CLOUDINARY_API_SECRET=your_cloudinary_api_secret
 NODE_ENV=development
 
 
-# Clone the repository
+## Clone the repository
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 
-# Install backend dependencies
+## Install backend dependencies
 cd server
 npm install
 
-# Install frontend dependencies
+## Install frontend dependencies
 cd ../client
 npm install
 
 
-Build the App
+##Build the App
 # From client directory
 npm run build
 
-Start the App
+##Start the App
 
 # From server directory
 npm start
 
 
-📸 Screenshots
-
-
-![Screenshot 2025-04-07 164728](https://github.com/user-attachments/assets/f4c8262b-40a0-4ade-9c6a-108470f716b0)
 
 
 
