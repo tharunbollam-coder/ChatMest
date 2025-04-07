@@ -45,6 +45,23 @@ npm install
 
 ---
 
+
+## ⚙️ Environment Setup
+
+    Create a `.env` file inside the `server` directory and paste:
+    
+    ```env
+    MONGODB_URI=your_mongodb_uri
+    PORT=5001
+    JWT_SECRET=your_jwt_secret
+    
+    CLOUDINARY_CLOUD_NAME=your_cloud_name
+    CLOUDINARY_API_KEY=your_cloudinary_api_key
+    CLOUDINARY_API_SECRET=your_cloudinary_api_secret
+    
+    NODE_ENV=development
+
+
 ## ⚒️ Build the App
 
 # From frontend directory
@@ -58,22 +75,6 @@ npm run build
 npm start
 
 
-## ⚙️ Environment Setup
-
-Create a `.env` file inside the `server` directory and paste:
-
-```env
-MONGODB_URI=your_mongodb_uri
-PORT=5001
-JWT_SECRET=your_jwt_secret
-
-CLOUDINARY_CLOUD_NAME=your_cloud_name
-CLOUDINARY_API_KEY=your_cloudinary_api_key
-CLOUDINARY_API_SECRET=your_cloudinary_api_secret
-
-NODE_ENV=development
-
----
 
 
 
