@@ -1,4 +1,4 @@
-# MERN Real-Time Chat App
+## MERN Real-Time Chat App
 
 A full-stack **real-time chat application** built using **MERN**, **Socket.io**, **TailwindCSS**, and **DaisyUI**. This app supports real-time messaging, JWT-based authentication, global state with Zustand, image uploads, and is fully deployable for free.
 
@@ -30,10 +30,35 @@ A full-stack **real-time chat application** built using **MERN**, **Socket.io**,
 
 ---
 
+## 🛠️ Installation
+- Clone the repository
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+
+- Install backend dependencies
+cd backend
+npm install
+
+- Install frontend dependencies
+cd frontend
+npm install
 
 ---
 
-⚙️ Environment Setup
+## ⚒️ Build the App
+
+# From client directory
+npm run build
+
+---
+
+## ▶️ Start the App
+
+# From server directory
+npm start
+
+
+## ⚙️ Environment Setup
 
 Create a `.env` file inside the `server` directory and paste:
 
@@ -49,37 +74,6 @@ CLOUDINARY_API_SECRET=your_cloudinary_api_secret
 NODE_ENV=development
 
 ---
-
-
-🛠️ Installation
-
-## Clone the repository
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-
-## Install backend dependencies
-cd server
-npm install
-
-## Install frontend dependencies
-cd ../client
-npm install
-
----
-
-
-⚒️ Build the App
-
-# From client directory
-npm run build
-
----
-
-▶️ Start the App
-
-# From server directory
-npm start
-
 
 
 
