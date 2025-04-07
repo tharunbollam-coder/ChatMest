@@ -50,17 +50,15 @@ NODE_ENV=development
 
 ---
 
+🛠️ Installation
+
 ## Clone the repository
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 
----
-
 ## Install backend dependencies
 cd server
 npm install
-
----
 
 ## Install frontend dependencies
 cd ../client
@@ -69,13 +67,14 @@ npm install
 ---
 
 
-##Build the App
+⚒️ Build the App
+
 # From client directory
 npm run build
 
 ---
 
-##Start the App
+▶️ Start the App
 
 # From server directory
 npm start
