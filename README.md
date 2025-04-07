@@ -33,7 +33,7 @@ A full-stack **real-time chat application** built using **MERN**, **Socket.io**,
 
 ---
 
-## ⚙️ Environment Setup
+⚙️ Environment Setup
 
 Create a `.env` file inside the `server` directory and paste:
 
@@ -49,6 +49,7 @@ CLOUDINARY_API_SECRET=your_cloudinary_api_secret
 NODE_ENV=development
 
 ---
+
 
 🛠️ Installation
 
