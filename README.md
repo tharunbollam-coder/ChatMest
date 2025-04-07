@@ -1,0 +1,82 @@
+# MERN Real-Time Chat App
+
+A full-stack **real-time chat application** built using **MERN**, **Socket.io**, **TailwindCSS**, and **DaisyUI**. This app supports real-time messaging, JWT-based authentication, global state with Zustand, image uploads, and is fully deployable for free.
+
+---
+
+## 🚀 Tech Stack
+
+- **Frontend:** React, TailwindCSS, DaisyUI
+- **Backend:** Node.js, Express.js, MongoDB
+- **Real-Time:** Socket.io
+- **Authentication:** JWT (JSON Web Tokens)
+- **State Management:** Zustand
+- **Image Uploads:** Cloudinary
+- **Deployment Ready:** Free deployment options available
+
+---
+
+## ✨ Features
+
+- 🔐 Authentication & Authorization using JWT
+- 💬 Real-time messaging with Socket.io
+- ✅ Online user status indicators
+- 🌐 Global state management using Zustand
+- ☁️ Cloudinary integration for image uploads
+- 🐞 Error handling (client and server)
+- ⚡ Clean UI with TailwindCSS + DaisyUI
+- ⭐ Deploy like a pro for FREE!
+- ⏳ And much more!
+
+---
+
+
+---
+
+## ⚙️ Environment Setup
+
+Create a `.env` file inside the `server` directory and paste:
+
+```env
+MONGODB_URI=your_mongodb_uri
+PORT=5001
+JWT_SECRET=your_jwt_secret
+
+CLOUDINARY_CLOUD_NAME=your_cloud_name
+CLOUDINARY_API_KEY=your_cloudinary_api_key
+CLOUDINARY_API_SECRET=your_cloudinary_api_secret
+
+NODE_ENV=development
+
+
+# Clone the repository
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+
+# Install backend dependencies
+cd server
+npm install
+
+# Install frontend dependencies
+cd ../client
+npm install
+
+
+Build the App
+# From client directory
+npm run build
+
+Start the App
+
+# From server directory
+npm start
+
+
+📸 Screenshots
+
+
+![Screenshot 2025-04-07 164728](https://github.com/user-attachments/assets/f4c8262b-40a0-4ade-9c6a-108470f716b0)
+
+
+
+
